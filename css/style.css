@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Proxima Nova Reg";
+    src: url(/website/fonts/proxima-nova-reg.otf) format("opentype");
+}
+@font-face {
+    font-family: "Proxima Nova Light";
+    src: url(/website/fonts/proxima-nova-light.otf) format("opentype");
+}
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url(/website/fonts/proxima-nova-bold.otf) format("opentype");
+}
+body {
+    background: white;
+}
+div.main-container {
+    font-family: "Proxima Nova Reg", Helvetica, sans-serif;
+    padding: 100px 10%;
+    color: #444;
+}
+div.main-container h1 {
+    font-family: "Proxima Nova Bold", Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+div.main-container h2 {
+    font-family: "Proxima Nova Bold", Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #bbb;
+}
+div.main-container p {
+    font-family: "Proxima Nova Light", Helvetica, sans-serif;
+    font-size: 24px;
+}
+div.main-content {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.main-header a {
+    text-decoration: underline;
+    color: #444;
+}
+div.links {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div.link-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.links a {
+    font-family: "Proxima Nova Bold", Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: black;
+}
+div.latest-work {
+    padding-bottom: 50px;
+}
+div.dribbble-panel {
+    display: block;
+    padding-bottom: 20px;
+}
+div.dribbble-panel img {
+    border: 5px solid #efefef;
+}
+div.tumblr-show-me-more {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+div.tumblr-show-me-more a {
+    font-family: "Proxima Nova Bold", Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fc491f;
+}
+div.footer {
+    border-top: 1px solid #efefef;
+}
+div.footer p {
+    padding-top: 10px;
+    font-family: "Proxima Nova Bold", Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+div.footer a {
+    color: #fc491f;
+}
