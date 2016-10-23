@@ -20,8 +20,8 @@ div.main-container {
 }
 div.main-container h1 {
     font-family: "Proxima Nova Bold", Helvetica, sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.08em;
+    font-size: 15px;
+    letter-spacing: 0.1em;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -42,8 +42,7 @@ div.main-content {
     margin-right: auto;
 }
 div.main-header a {
-    text-decoration: underline;
-    color: #444;
+    color: #F05;
 }
 div.links {
     padding-top: 30px;
@@ -55,8 +54,8 @@ div.link-wrapper {
 }
 div.links a {
     font-family: "Proxima Nova Bold", Helvetica, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.08em;
+    font-size: 12px;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: black;
 }
